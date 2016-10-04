@@ -1,7 +1,7 @@
 # PHP-Blog
 PHP | HTML5 | CSS3 Blog
 
-## require
+## Require
 
 - PHP
 - Nginx or Apache
