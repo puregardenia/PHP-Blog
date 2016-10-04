@@ -1,0 +1,1 @@
+<div align="center" style="font-size:10pt;color:gray;margin-top:30px;margin-bottom:15px">Copyright &copy; 2015 | Powered By <a href="http://blog.sina.com.cn/puregardenia" target="_blank" style="color:darkgray;text-decoration:none "> pure </a> | All Rights Reserved</div>

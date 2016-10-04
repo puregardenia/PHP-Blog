@@ -1,0 +1,155 @@
+*:focus{outline:0}  /*解决点击按钮时的边框越界*/
+body,button,input,select,textarea{
+  font-size:15px;
+  font-family:"Microsoft Yahei";
+}
+html{
+  background:#f9f9f9;
+}
+body{
+  margin:0 auto;
+  padding:0px;
+}
+a{
+  text-decoration:none;
+  color:#0075a9
+}
+hr{
+  border-width:0;
+  height:2px;
+  background-color:#DDD;
+}
+.line{
+  border-top: 1px dotted gray;
+  margin-top: 4px;
+}
+h1{
+  font-size:18pt;
+  text-align:right;
+  color:#0099CC;
+  margin-bottom:25px;
+}
+.image{
+  text-align:center;
+}
+#mainbox{
+  overflow:auto;  /*重要*/
+  width:800px;
+  margin:0 auto;
+  padding:50px 30px;
+  /*border:1px solid #000;*/
+  background:#fff;
+
+  -moz-border-radius:5px;
+  -webkit-border-radius:8px;  
+
+  -moz-box-shadow:0 0 5px #DDD; 
+  -webkit-box-shadow:0 0 5px #DDD; 
+  box-shadow:0 0 20px #DDD;
+}
+.main{
+  overflow:auto;
+  max-width:860px;
+  margin:20px auto 0;
+  padding:0;
+}
+.button{
+  font-family: sans-serif;
+  text-decoration: none;
+  line-height:16px;
+  padding: 6px 12px;
+  border: 1px solid #bbb;
+  color: #464646;     /*设置按钮字体颜色*/
+  background-color: #f5f5f5;
+
+
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+
+  /*按钮的背景图片(否则和html一样)*/
+  background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(top, #ffffff, #f2f2f2);
+}
+.button:hover{
+  /*字体颜色*/
+  color:#000;
+  border-color: #666;
+}
+.button:active 
+{
+  background-image: -ms-linear-gradient(top, #f2f2f2, #ffffff);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #ffffff);
+  background-image: -o-linear-gradient(top, #f2f2f2, #ffffff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #ffffff);
+  background-image: linear-gradient(top, #f2f2f2, #ffffff);
+}
+.tag{
+  font-size:10px;
+  color:#89898b;
+  padding:3px;
+  margin:0 5px 10px 0;
+  border:1px solid #F5F5F5;
+  background:#F5F5F5;
+  /*将此对象设置为内联对象元素并且属于块元素,其前后的元素不会产生换行*/
+  display:inline-block;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -border-radius:5px;
+}
+label{
+  cursor:pointer;
+}
+.errorlabel{
+  display:none; /*默认不显示*/
+  color:red;
+}
+.textarea-wrapper{
+  border-color:#CCC #E2E2E2 #E2E2E2 #CCC;   /*上、右、下、左*/
+  border-style:solid;
+  border-width:1px;
+  background:#EEE;
+}
+.textarea-minishadow{
+  border-top:1px solid #f6f6f6;
+  border-left:1px solid #f6f6f6;
+  margin-top:1px;
+}
+.textarea-box{
+  padding:4px 6px 6px 6px;
+  border:none;
+  overflow-x:hidden;
+  overflow-y:visible;
+}
+.articletitle{
+  font-family:"微软雅黑";
+  font-size:15pt;
+  color:#E4007F;
+}
+.content{
+	line-height:28px;
+}
+.createtime{
+  font-size:10pt;
+  color:darkgray;
+  margin:5px 0;
+}
+.shadow{
+  font-family:Jokerman;
+  font-size:30pt;
+  color:white;
+  text-shadow:5px 2px 6px #000;
+}
+.nickname{
+  color:#00a0e9;
+  font-size:14px;
+  font-family:"Microsoft Yahei";
+}
+.note{
+	font-family:"华文楷体";
+	font-size:20px;
+}

@@ -1,0 +1,3 @@
+<?php
+	$Pagesize=5;
+?>
